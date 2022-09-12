@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 5vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  font-size: 5vw;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+nav {
+    display: flex;
+    padding: 3vmin 15vmin;
+    font-size: 2.5vmin;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a {
+    color: black;
+}
+main {
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 2vw;
+}
+.main-section{
+    display: flex;
+    flex-flow: column;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+.resume-section {
+    margin-bottom: 2vw;
+}
+.resume-section h2{
+    color: rgb(52, 52, 145);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+.work-experience div {
+    margin-top: 2vw;
+}
+main ul {
+    margin-top: 2vw;
+}
+main ul li {
+    margin-top: 1vw;
+}
